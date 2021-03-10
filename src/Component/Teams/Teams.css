@@ -1,0 +1,25 @@
+.Team{
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    color: #072e27;
+    text-align: center;
+    background-color: #DCF2FC;
+    box-shadow: 5px 5px 10px #6900E0;
+
+}
+
+.images{
+    width: 100px;
+}
+
+.Button{
+
+    border: none;
+    background-color: #3b3bff;
+    color: white;
+    font-size: large;
+    width: 150px;
+    height: 40px;
+    
+}

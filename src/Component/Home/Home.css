@@ -1,0 +1,24 @@
+
+.Teams{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 160px;
+}
+
+.TeamTracker{
+    height: 380px;
+    background-image: url("../images/image.jpg");
+    background-repeat: no-repeat;
+    position:sticky;
+    top: 0px;
+    box-shadow: 5px 0px 20px lightgrey;
+}
+
+.TeamText{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 5px 5px lightslategrey;
+    font-size: 2.2rem;
+    padding-top: 160px;
+}
+
