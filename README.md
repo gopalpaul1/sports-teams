@@ -17,6 +17,6 @@ This Project [React-Router] is used to move from one to another page. Useprams a
 
 # Web-Site link ...Sports Teams...
 
-Nitlify Link: [https://604a0e01db4a00a9080c14db--amazing-perlman-ba3bc5.netlify.app/](https://604a0e01db4a00a9080c14db--amazing-perlman-ba3bc5.netlify.app/)
+Nitlify Link: [https://604a2763c9fefd00b17f03b0--amazing-perlman-ba3bc5.netlify.app/](https://604a2763c9fefd00b17f03b0--amazing-perlman-ba3bc5.netlify.app/)
 
 # react-router-gopalpaul1
