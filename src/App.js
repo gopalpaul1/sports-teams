@@ -5,6 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 import Home from './Component/Home/Home';
 import Details from './Component/Details/Details';
 import NoMatch from './Component/NoMatch/NoMatch';

@@ -15,7 +15,7 @@ const Home = () => {
     }, [])
 
     return (
-        <div>
+        <div className="Container">
 
             <div className="TeamTracker">
                 <h1 className="TeamText">Team Tracker</h1>

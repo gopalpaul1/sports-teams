@@ -4,19 +4,22 @@
     padding: 20px;
     color: #072e27;
     text-align: center;
-    background-color: #DCF2FC;
-    box-shadow: 5px 5px 10px #6900E0;
+    background-color: #fbfbfb;
+    box-shadow: 5px 5px 10px #cacaca;
 
 }
 
-.images{
+.team-images{
     width: 100px;
 }
 
 .Button{
 
     border: none;
-    background-color: #3b3bff;
+    border-radius: 10px 0px 10px 0px;
+    background-color: #b1b1b3;
+    box-shadow: 5px 5px 20px #e7e7e7;
+    cursor: pointer;
     color: white;
     font-size: large;
     width: 150px;
