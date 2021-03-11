@@ -3,7 +3,6 @@ import Teams from '../Teams/Teams';
 import './Home.css';
 
 const Home = () => {
-
     
     const [teams, setTeams] = useState([])
 
@@ -15,12 +14,12 @@ const Home = () => {
     }, [])
 
     return (
+        
         <div className="Container">
 
             <div className="TeamTracker">
                 <h1 className="TeamText">Team Tracker</h1>
             </div>
-
             <div className="Teams">
                 {
                     teams.map(team => <Teams teams = {team} />)

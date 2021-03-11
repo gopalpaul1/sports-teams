@@ -13,7 +13,6 @@ const Details = () => {
     useEffect(() => {
 
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`
-
         fetch(url)
         .then(res => res.json())
         .then(data => setTeam(data.teams))
@@ -21,15 +20,15 @@ const Details = () => {
     }, [])
 
     return (
-        <div>
 
+        <div>
             <div>
                 {
                     team.map(team => <TeamDetail team = {team} />)
                 }
             </div>
-
         </div>
+
     );
 };
 

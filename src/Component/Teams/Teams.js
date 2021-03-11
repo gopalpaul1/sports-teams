@@ -5,7 +5,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './Teams.css'
 
 const Teams = (props) => {
-    console.log(props)
 
     const {strTeam, strTeamBadge, strSport, idTeam} = props.teams
 
@@ -14,12 +13,13 @@ const Teams = (props) => {
     const handleClick = (idTeam) => {
 
         history.push(`/details/${idTeam}`)
-    }
 
+    }
 
     return (
 
         <div className="Team">
+            
             <img className="team-images" src={strTeamBadge} alt="images"/>
             <h3>{strTeam}</h3>
             <p>Sports Type: {strSport}</p>

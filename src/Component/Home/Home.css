@@ -1,22 +1,63 @@
-.Teams{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 160px;
+
+@media only screen and (max-width: 600px) {
+    .Teams{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 80px;
+    }
+    
+    .TeamTracker{
+        height: 360px;
+        background-image: url("../images/image.jpg");
+        background-repeat: no-repeat;
+        box-shadow: 5px 0px 20px #424141;
+    }
+    
+    .TeamText{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 5px 5px rgb(119, 136, 153);
+        font-size: 2.2rem;
+        padding-top: 160px;
+    }
+    .Button{
+
+        border: none;
+        border-radius: 10px 0px 10px 0px;
+        background-color: crimson;
+        box-shadow: 5px 5px 20px #e0e0e0;
+        cursor: pointer;
+        color: white;
+        font-size: large;
+        width: 150px;
+        height: 40px;
+        
+    }
+
 }
 
-.TeamTracker{
-    height: 360px;
-    background-image: url("../images/image.jpg");
-    background-repeat: no-repeat;
-    box-shadow: 5px 0px 20px #424141;
+@media only screen and (min-width: 992px) {
+
+    .Teams{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 160px;
+    }
+    
+    .TeamTracker{
+        height: 360px;
+        background-image: url("../images/image.jpg");
+        background-repeat: no-repeat;
+        box-shadow: 5px 0px 20px #424141;
+    }
+    
+    .TeamText{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 5px 5px rgb(119, 136, 153);
+        font-size: 2.2rem;
+        padding-top: 160px;
+    }
+    
+
 }
-
-
-.TeamText{
-    text-align: center;
-    color: white;
-    text-shadow: 2px 5px 5px rgb(119, 136, 153);
-    font-size: 2.2rem;
-    padding-top: 160px;
-}
-

@@ -14,11 +14,11 @@ import Female from '../images/female.png'
 
 
 const TeamDetail = (props) => {
-    console.log(props)
 
-    const {strTeam, strTeamBadge, intFormedYear, strGender, strCountry, strDescriptionEN, strSport, strTwitter, strFacebook, strYoutube} = props.team
+    const {strTeam, strTeamBadge, intFormedYear, strGender, strCountry, strDescriptionEN, strStadiumDescription, strSport, strTwitter, strFacebook, strYoutube} = props.team
 
     const gender = (male, female) =>{
+
         if(male === strGender){
             return Male
         }
@@ -30,10 +30,12 @@ const TeamDetail = (props) => {
 
 
     return (
+
         <div>
+            
             <div className="Banner"><img className="banner-image" src={strTeamBadge} alt=""/></div>
             <div className="TeamDetails">
-                <div style={{marginRight:"35%"}}>
+                <div className="detail-card">
                     <h1>{strTeam}</h1>
                     <p><img className="images-icon" src={found} alt=""/> Founded: {intFormedYear}</p>
                     <p><img className="images-icon" src={flag} alt=""/> Country: {strCountry}</p>
@@ -41,24 +43,24 @@ const TeamDetail = (props) => {
                     <p><img className="images-icon" src={Gender} alt=""/> Gender: {strGender}</p>
                 </div>
                 <div className="gender-image">
-                    <img style={{width:"360px"}} src={gender(strGender)} alt=""/>
+                    <img src={gender(strGender)} alt=""/>
                 </div>
             </div>
-
             <div className="Text">
                 <p>{strDescriptionEN}</p>
+                <br/>
+                <p>{strStadiumDescription}</p>
             </div>
-
             <div className="SocialMedia">
-               <div>
+                <div>
                     <Link target="/blank" to={`/media/${strTwitter}`}><img className="media-icon" src={twitter} alt=""/></Link>
-               </div>
-               <div>
+                </div>
+                <div>
                     <Link target="/blank" to={`/media/${strFacebook}`}><img className="media-icon" src={facebook} alt=""/></Link>
-               </div>
-               <div>
+                </div>
+                <div>
                     <Link target="/blank" to={`/media/${strYoutube}`}><img className="media-icon" src={youtube} alt=""/></Link>
-               </div>
+                </div>
             </div>
 
         </div>
