@@ -17,7 +17,7 @@ const TeamDetail = (props) => {
 
     const {strTeam, strTeamBadge, intFormedYear, strGender, strCountry, strDescriptionEN, strStadiumDescription, strSport, strTwitter, strFacebook, strYoutube} = props.team
 
-    const gender = (male, female) =>{
+    const gender = (male, female) => {
 
         if(male === strGender){
             return Male
@@ -27,7 +27,6 @@ const TeamDetail = (props) => {
             
         }
     }
-
 
     return (
 

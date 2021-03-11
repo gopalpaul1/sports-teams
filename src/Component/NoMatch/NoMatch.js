@@ -1,9 +1,19 @@
 import React from 'react';
 
 const NoMatch = () => {
+
+    const styleNoMatch = {
+        color: "white",
+        textAlign:"center"
+    }
+
+    const notFound = {
+        color: "crimson"
+    }
+
     return (
-        <div>
-            <h1>Sorry! Page not found ...404...</h1>
+        <div style={styleNoMatch}>
+            <h1>Sorry! Page not found ...<b style={notFound}>404</b>...</h1>
         </div>
     );
 };
