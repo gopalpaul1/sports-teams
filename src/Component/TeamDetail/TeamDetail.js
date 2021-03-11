@@ -7,7 +7,6 @@ import Gender from '../images/male-gender-sign 1.png'
 import facebook from '../images/Facebook.png'
 import twitter from '../images/Twitter.png'
 import youtube from '../images/YouTube.png'
-import { Link } from 'react-router-dom'
 import Male from '../images/male.png'
 import Female from '../images/female.png'
 
