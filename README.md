@@ -1,6 +1,6 @@
-# TEAM TRACKER HERE !!!
+# !!! Premier league Club's !!!
 
-# Project name: ... 'Team-Tracker' ...
+# Project name: ... 'Sports Teams' ...
 
 Gite Repository link: [https://github.com/Porgramming-Hero-web-course/react-router-gopalpaul1](https://github.com/Porgramming-Hero-web-course/react-router-gopalpaul1)
 
@@ -15,7 +15,7 @@ At first created a team tracker to use the team tracker project. The first secti
 This Project [React-Router] is used to move from one to another page. Useprams and usahistory functions have been used in [React-Router-Hock].
 
 
-# Web-Site link ...Team Tracker...
+# Web-Site link ...Sports Teams...
 
 Nitlify Link: [https://604a0e01db4a00a9080c14db--amazing-perlman-ba3bc5.netlify.app/](https://604a0e01db4a00a9080c14db--amazing-perlman-ba3bc5.netlify.app/)
 
