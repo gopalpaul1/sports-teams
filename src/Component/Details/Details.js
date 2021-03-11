@@ -17,7 +17,7 @@ const Details = () => {
         .then(res => res.json())
         .then(data => setTeam(data.teams))
 
-    }, [])
+    }, [idTeam])
 
     return (
 

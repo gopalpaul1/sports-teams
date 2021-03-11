@@ -23,7 +23,7 @@ const Teams = (props) => {
             <img className="team-images" src={strTeamBadge} alt="images"/>
             <h3>{strTeam}</h3>
             <p>Sports Type: {strSport}</p>
-            {/* <p>ID: {idTeam}</p> */}
+            
             <button className="Button" onClick={() => handleClick(idTeam)}>
                 Explore <FontAwesomeIcon style={{marginLeft:"5px"}} icon={faArrowRight} />
                 </button>
