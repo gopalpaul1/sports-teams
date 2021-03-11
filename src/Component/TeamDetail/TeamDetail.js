@@ -52,13 +52,13 @@ const TeamDetail = (props) => {
             </div>
             <div className="SocialMedia">
                 <div>
-                    <Link target="/blank" to={`/media/${strTwitter}`}><img className="media-icon" src={twitter} alt=""/></Link>
+                    <a href={`http://${strTwitter}`}><img className="media-icon" src={twitter} alt=""/></a>
                 </div>
                 <div>
-                    <Link target="/blank" to={`/media/${strFacebook}`}><img className="media-icon" src={facebook} alt=""/></Link>
+                    <a href={`http://${strFacebook}`}><img className="media-icon" src={facebook} alt=""/></a>
                 </div>
                 <div>
-                    <Link target="/blank" to={`/media/${strYoutube}`}><img className="media-icon" src={youtube} alt=""/></Link>
+                    <a href={`http://${strYoutube}`}><img className="media-icon" src={youtube} alt=""/></a>
                 </div>
             </div>
 
