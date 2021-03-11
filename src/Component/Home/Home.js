@@ -14,11 +14,11 @@ const Home = () => {
     }, [])
 
     return (
-        
+
         <div className="Container">
 
             <div className="TeamTracker">
-                <h1 className="TeamText">Team Tracker</h1>
+                <h1 className="TeamText">Sports Teams</h1>
             </div>
             <div className="Teams">
                 {
